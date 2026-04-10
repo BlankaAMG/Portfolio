@@ -1,48 +1,132 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Portfolio - Yasin</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yasin — Portfolio BUT R&T</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<header>
-    <h1>Mon Portfolio</h1>
+  <div class="wrap">
+
+    <!-- NAV -->
     <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="presentation.html">Présentation</a></li>
-            <li><a href="sae.html">Projets</a></li>
-        </ul>
+      <a href="index.html" class="nav-logo">Portfolio - Yasin<span>.</span></a>
+      <div class="nav-menu">
+        <a href="index.html" class="active">Accueil</a>
+        <a href="sae.html">SAÉ</a>
+        <a href="bilans.html">Bilans</a>
+        <a href="contact.html">Contact</a>
+      </div>
     </nav>
-</header>
 
-<section class="hero">
-    <h2>Bienvenue sur mon portfolio</h2>
-    <p>Je suis étudiant en BUT Réseaux et Télécommunications.</p>
-</section>
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <div class="hero-eyebrow">
+          <span class="eyebrow-line"></span>
+          BUT Réseaux &amp; Télécoms — Université de Caen
+        </div>
+        <h1>
+          Yasin,<br>
+          étudiant en BUT<br>
+          <em>Réseaux & Télécommunications</em>
+        </h1>
+        <p class="hero-sub">
+          Passionné par la <strong>protection des infrastructures réseau</strong>,
+          la détection des menaces et la sécurité des systèmes d'information.
+          Ce portfolio retrace mon parcours, mes compétences et mes projets
+          au fil de ma formation BUT R&amp;T.
+        </p>
+        <div class="cta-row">
+          <a href="sae.html" class="btn-main">Voir mes SAÉ</a>
+          <a href="bilans.html" class="btn-ghost">Consulter mes bilans</a>
+        </div>
+      </div>
 
-<section class="about">
-    <h2>À propos de moi</h2>
-    <p>
-        Je suis actuellement en première année de BUT R&T.
-        Ce portfolio présente mes projets (SAÉ), mes compétences
-        et mon évolution durant ma formation.
-    </p>
-</section>
+    <!-- Photo professionnelle -->
+<div class="photo-block">
+  <div class="photo-frame">
+    <img src="photo1.png" alt="Photo de Yasin" style="width:100%;height:100%;object-fit:cover;">
+  </div>
+  <div class="availability">
+    <span class="avail-dot"></span>
+    Dispo alternance
+  </div>
+</div>
 
-<section class="objectif">
-    <h2>Objectif</h2>
-    <p>
-        Ce site a pour but de montrer mon évolution, mes compétences
-        et les projets réalisés durant mon BUT.
-    </p>
-</section>
+    <!-- PRÉSENTATION -->
+    <section>
+      <div class="section-label">
+        <span class="section-label-text">Qui suis-je &amp; pourquoi ce portfolio</span>
+        <span class="section-label-line"></span>
+      </div>
+      <div class="about-grid">
 
-<footer>
-    <p>© 2026 - Yasin</p>
-</footer>
+        <div class="about-card">
+          <div class="about-num">01</div>
+          <h3>Mon parcours</h3>
+          <p>Actuellement en 1er année de BUT R&amp;T à l'Université de Caen, j'envisage une poursuite d'étude en Master ou en École d'Ingénieurs après mon BUT.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-num">02</div>
+          <h3>Mon objectif</h3>
+          <p>Mon objectif final serait de  <strong>créer mon entreprise</strong> spécialisé en sécurité des SI mais également en réseaux.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-num">03</div>
+          <h3>Ce que vous allez découvrir</h3>
+          <p>Ce site a pour but de vous faire découvrir mes différents projets réalisés en cours d'année, ainsi que mes compétences et mes réflexions sur le métier.</p>
+        </div>
+
+        <div class="about-card">
+          <div class="about-num">04</div>
+          <h3>Ma démarche</h3>
+          <p>Chaque projet est l'occasion d'approfondir mes compétences techniques, de développer mon autonomie et de progresser vers un profil professionnel solide.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- NAVIGATION PAGES -->
+    <section>
+      <div class="section-label">
+        <span class="section-label-text">Navigation — pages du portfolio</span>
+        <span class="section-label-line"></span>
+      </div>
+      <div class="pages-grid">
+
+        <a href="sae.html" class="page-card">
+          <span class="page-arrow">↗</span>
+          <span class="page-num">01 / Projets</span>
+          <h3>Mes Projets</h3>
+          <p>Situations d'apprentissage et d'évaluation réalisées en formation.</p>
+          <div class="page-bottom-bar"></div>
+        </a>
+
+        <a href="bilans.html" class="page-card">
+          <span class="page-arrow">↗</span>
+          <span class="page-num">02 / BILANS</span>
+          <h3>Bilans de compétences</h3>
+          <p>Analyse de ma progression dans les compétences du référentiel BUT R&amp;T.</p>
+          <div class="page-bottom-bar"></div>
+        </a>
+
+        <a href="contact.html" class="page-card">
+          <span class="page-arrow">↗</span>
+          <span class="page-num">03 / CONTACT</span>
+          <h3>Me contacter</h3>
+          <p>Pour toute opportunité de stage, alternance ou collaboration.</p>
+          <div class="page-bottom-bar"></div>
+        </a>
+
+      </div>
+    </section>
+
+  </div><!-- /wrap -->
 
 </body>
 </html>
